@@ -67,3 +67,11 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+
+# 🔥 Additions to ignore large APKs and build outputs
+*.apk
+/build/
+/android/app/build/
+/build/app/outputs/apk/
+build/app/outputs/flutter-apk/
+android/app/build/outputs/flutter-apk/
