@@ -1,0 +1,27 @@
+org.tensorflow.tflite_flutter-jetified-savedstate-1.2.1-0 C:\Users\tatan\.gradle\caches\transforms-3\099d67a1ba87f6dca3a131eee7c71b19\transformed\jetified-savedstate-1.2.1\res
+org.tensorflow.tflite_flutter-jetified-core-ktx-1.13.1-1 C:\Users\tatan\.gradle\caches\transforms-3\0e8ae53bd11495b1b621310e1a92c9ac\transformed\jetified-core-ktx-1.13.1\res
+org.tensorflow.tflite_flutter-jetified-tracing-1.2.0-2 C:\Users\tatan\.gradle\caches\transforms-3\0eac92eee62a57a98c2b1bb04ca40dca\transformed\jetified-tracing-1.2.0\res
+org.tensorflow.tflite_flutter-fragment-1.7.1-3 C:\Users\tatan\.gradle\caches\transforms-3\1927319348e6a1763638dd6fc5d4ebe9\transformed\fragment-1.7.1\res
+org.tensorflow.tflite_flutter-jetified-lifecycle-process-2.7.0-4 C:\Users\tatan\.gradle\caches\transforms-3\21229aebbaf5cde3895057019033d48e\transformed\jetified-lifecycle-process-2.7.0\res
+org.tensorflow.tflite_flutter-jetified-lifecycle-viewmodel-savedstate-2.7.0-5 C:\Users\tatan\.gradle\caches\transforms-3\2e4cfc53e960b34c99f0c3a81b84ed92\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+org.tensorflow.tflite_flutter-lifecycle-livedata-core-2.7.0-6 C:\Users\tatan\.gradle\caches\transforms-3\3e91e6e2ca7a9718ea05e91fb451209b\transformed\lifecycle-livedata-core-2.7.0\res
+org.tensorflow.tflite_flutter-jetified-window-java-1.2.0-7 C:\Users\tatan\.gradle\caches\transforms-3\416877508d234be4db44dc0531435dd4\transformed\jetified-window-java-1.2.0\res
+org.tensorflow.tflite_flutter-lifecycle-runtime-2.7.0-8 C:\Users\tatan\.gradle\caches\transforms-3\45c012e4be41c5daba432f792569bcc7\transformed\lifecycle-runtime-2.7.0\res
+org.tensorflow.tflite_flutter-jetified-core-1.0.0-9 C:\Users\tatan\.gradle\caches\transforms-3\722b4e7a0e4e51cc1a68a6b58be260cb\transformed\jetified-core-1.0.0\res
+org.tensorflow.tflite_flutter-core-1.13.1-10 C:\Users\tatan\.gradle\caches\transforms-3\988018d6338235c16c17e5528f7c8fbc\transformed\core-1.13.1\res
+org.tensorflow.tflite_flutter-jetified-lifecycle-livedata-core-ktx-2.7.0-11 C:\Users\tatan\.gradle\caches\transforms-3\b362bc8d32cf37455bd32f36df9d02e0\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+org.tensorflow.tflite_flutter-jetified-profileinstaller-1.3.1-12 C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\res
+org.tensorflow.tflite_flutter-lifecycle-livedata-2.7.0-13 C:\Users\tatan\.gradle\caches\transforms-3\cf41abb1ff62de0248355734c43a4866\transformed\lifecycle-livedata-2.7.0\res
+org.tensorflow.tflite_flutter-core-runtime-2.2.0-14 C:\Users\tatan\.gradle\caches\transforms-3\d5ed2eb7e5ee645d8f0cbbc074499093\transformed\core-runtime-2.2.0\res
+org.tensorflow.tflite_flutter-jetified-activity-1.8.1-15 C:\Users\tatan\.gradle\caches\transforms-3\dcd11c21b838407bd53905ec915ca943\transformed\jetified-activity-1.8.1\res
+org.tensorflow.tflite_flutter-jetified-window-1.2.0-16 C:\Users\tatan\.gradle\caches\transforms-3\dd937f4ce72e43f721a0809077c30bbc\transformed\jetified-window-1.2.0\res
+org.tensorflow.tflite_flutter-jetified-annotation-experimental-1.4.0-17 C:\Users\tatan\.gradle\caches\transforms-3\ea97a637984e4835dd76e04c56a50e1d\transformed\jetified-annotation-experimental-1.4.0\res
+org.tensorflow.tflite_flutter-jetified-startup-runtime-1.1.1-18 C:\Users\tatan\.gradle\caches\transforms-3\edfa108ec28bd93d6c30f18ac4b53c4f\transformed\jetified-startup-runtime-1.1.1\res
+org.tensorflow.tflite_flutter-lifecycle-viewmodel-2.7.0-19 C:\Users\tatan\.gradle\caches\transforms-3\fbff6f5a0178ebd2b2ce9743ac61acf1\transformed\lifecycle-viewmodel-2.7.0\res
+org.tensorflow.tflite_flutter-main-20 C:\Users\tatan\AppData\Local\Pub\Cache\hosted\pub.dev\tflite_flutter-0.11.0\android\src\main\res
+org.tensorflow.tflite_flutter-release-21 C:\Users\tatan\AppData\Local\Pub\Cache\hosted\pub.dev\tflite_flutter-0.11.0\android\src\release\res
+org.tensorflow.tflite_flutter-pngs-22 D:\wallet-way(2nd 11am)\build\tflite_flutter\generated\res\pngs\release
+org.tensorflow.tflite_flutter-resValues-23 D:\wallet-way(2nd 11am)\build\tflite_flutter\generated\res\resValues\release
+org.tensorflow.tflite_flutter-mergeReleaseResources-24 D:\wallet-way(2nd 11am)\build\tflite_flutter\intermediates\incremental\release\mergeReleaseResources\merged.dir
+org.tensorflow.tflite_flutter-mergeReleaseResources-25 D:\wallet-way(2nd 11am)\build\tflite_flutter\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+org.tensorflow.tflite_flutter-merged_res-26 D:\wallet-way(2nd 11am)\build\tflite_flutter\intermediates\merged_res\release

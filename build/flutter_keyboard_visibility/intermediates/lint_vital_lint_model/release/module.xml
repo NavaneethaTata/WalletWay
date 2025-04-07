@@ -1,0 +1,26 @@
+<lint-module
+    format="1"
+    dir="C:\Users\tatan\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_keyboard_visibility-6.0.0\android"
+    name=":flutter_keyboard_visibility"
+    type="LIBRARY"
+    maven="com.jrai.flutter_keyboard_visibility:flutter_keyboard_visibility:"
+    agpVersion="8.2.1"
+    buildFolder="D:\wallet-way(2nd 11am)\build\flutter_keyboard_visibility"
+    bootClassPath="C:\Users\tatan\AppData\Local\Android\Sdk\platforms\android-31\android.jar;C:\Users\tatan\AppData\Local\Android\Sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31"
+    neverShrinking="true">
+  <lintOptions
+      disable="InvalidPackage"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>

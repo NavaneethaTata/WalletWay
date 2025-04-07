@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "339771998973",
+    "project_id": "budget-tracking-b415b",
+    "storage_bucket": "budget-tracking-b415b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339771998973:android:71c1d0854171b371787494",
+        "android_client_info": {
+          "package_name": "com.example.walletway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339771998973-2i7jgq02o7r6idl2gj5bjk43scks0c3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlB56d47A3J_sM3SheLP4Xtoz0HAYzo9U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339771998973-2i7jgq02o7r6idl2gj5bjk43scks0c3r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "339771998973-6os64lkd5491mjnblh328tt8ue2dd3ok.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.helloWorld"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

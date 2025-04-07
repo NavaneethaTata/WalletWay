@@ -1,0 +1,4 @@
+#Wed Dec 25 20:10:27 IST 2024
+base.0=C\:\\wallet-way\\android\\app\\build\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

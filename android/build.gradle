@@ -1,0 +1,50 @@
+buildscript {
+    ext.kotlin_version = '1.9.0'
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        // Update Gradle plugin to 8.2.1 for better compatibility with Java 17
+        classpath 'com.android.tools.build:gradle:8.2.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath 'com.google.gms:google-services:4.4.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    subprojects {
+        afterEvaluate { project ->
+            if (project.hasProperty('android')) {
+                project.android {
+                    if (namespace == null) {
+                        namespace project.group
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Specify where build directories will be created
+rootProject.buildDir = '../build'
+
+// Ensure all subprojects are evaluated
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+
+// Force evaluation of ':app' project
+subprojects {
+    project.evaluationDependsOn(':app')
+}
+
+// Register task to clean the build
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,1 @@
+ D:\\wallet-way(2nd\ 11am)\\.dart_tool\\flutter_build\\471a7bc90fe022ec4e0198fcef20b48d\\native_assets.yaml: 

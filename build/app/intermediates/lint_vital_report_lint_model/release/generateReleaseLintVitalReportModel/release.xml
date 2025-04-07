@@ -1,0 +1,37 @@
+<variant
+    name="release"
+    package="com.example.walletway"
+    minSdkVersion="23"
+    targetSdkVersion="35"
+    shrinking="true"
+    mergedManifest="D:\wallet-way(2nd 11am)\build\app\intermediates\merged_manifest\release\AndroidManifest.xml"
+    manifestMergeReport="D:\wallet-way(2nd 11am)\build\app\outputs\logs\manifest-merger-release-report.txt"
+    proguardFiles="D:\wallet-way(2nd 11am)\build\app\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.2.1;C:\src\flutter\packages\flutter_tools\gradle\flutter_proguard_rules.pro;proguard-rules.pro"
+    partialResultsDir="D:\wallet-way(2nd 11am)\build\app\intermediates\lint_vital_partial_results\release\out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src\main\AndroidManifest.xml"
+        javaDirectories="src\main\java;src\main\kotlin;src\release\java;src\release\kotlin"
+        resDirectories="src\main\res;src\release\res"
+        assetsDirectories="src\main\assets;src\release\assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <manifestPlaceholders>
+    <placeholder
+        name="applicationName"
+        value="android.app.Application" />
+  </manifestPlaceholders>
+  <artifact
+      classOutputs="D:\wallet-way(2nd 11am)\build\app\intermediates\javac\release\classes;D:\wallet-way(2nd 11am)\build\app\tmp\kotlin-classes\release;D:\wallet-way(2nd 11am)\build\app\kotlinToolingMetadata;D:\wallet-way(2nd 11am)\build\app\intermediates\compile_and_runtime_not_namespaced_r_class_jar\release\R.jar"
+      type="MAIN"
+      applicationId="com.example.walletway"
+      generatedSourceFolders="D:\wallet-way(2nd 11am)\build\app\generated\ap_generated_sources\release\out"
+      generatedResourceFolders="D:\wallet-way(2nd 11am)\build\app\generated\res\resValues\release"
+      desugaredMethodsFiles="C:\Users\tatan\.gradle\caches\transforms-3\2a974065651692af1149ea38a19f1b6e\transformed\D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

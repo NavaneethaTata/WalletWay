@@ -1,0 +1,87 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services"
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+android {
+    namespace "com.example.walletway"
+    compileSdkVersion flutter.compileSdkVersion
+    ndkVersion flutter.ndkVersion
+
+    // Update Java version compatibility to Java 17
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17  // Use Java 17
+        targetCompatibility JavaVersion.VERSION_17  // Use Java 17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'  // Ensure Kotlin compatibility with Java 17
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        applicationId "com.example.walletway"
+        minSdkVersion 23
+        targetSdkVersion flutter.targetSdkVersion
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        namespace 'com.example.walletway'
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug  // Adjust signing config as needed
+        }
+    }
+
+    // Enable core library desugaring
+    packagingOptions {
+        pickFirst '**/*.so'
+    }
+
+    // Enable desugaring JDK libs
+    configurations.all {
+        resolutionStrategy.eachDependency { details ->
+            if (details.requested.group == 'com.android.tools' && details.requested.name == 'desugar_jdk_libs') {
+                details.useVersion '2.0.2' // Ensure the latest compatible version
+            }
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation(platform("com.google.firebase:firebase-bom:33.7.0"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation 'org.tensorflow:tensorflow-lite:2.12.0' // Use the latest version
+    implementation 'org.tensorflow:tensorflow-lite-support:0.4.0'// Optional for data processing
+    //implementation 'yfinance:yfinance:0.1.91'
+    // Core library desugaring
+    //coreLibraryDesugaring "com.android.tools:desugar_jdk_libs:2.0.2" // Make sure this is the correct version for your setup
+}

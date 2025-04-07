@@ -1,0 +1,44 @@
+me.carda.awesome_notifications-localbroadcastmanager-1.1.0-0 C:\Users\tatan\.gradle\caches\transforms-3\0139ee70f3cb44b4d30bd99d79e1726a\transformed\localbroadcastmanager-1.1.0\res
+me.carda.awesome_notifications-jetified-savedstate-1.2.1-1 C:\Users\tatan\.gradle\caches\transforms-3\099d67a1ba87f6dca3a131eee7c71b19\transformed\jetified-savedstate-1.2.1\res
+me.carda.awesome_notifications-jetified-core-ktx-1.13.1-2 C:\Users\tatan\.gradle\caches\transforms-3\0e8ae53bd11495b1b621310e1a92c9ac\transformed\jetified-core-ktx-1.13.1\res
+me.carda.awesome_notifications-jetified-tracing-1.2.0-3 C:\Users\tatan\.gradle\caches\transforms-3\0eac92eee62a57a98c2b1bb04ca40dca\transformed\jetified-tracing-1.2.0\res
+me.carda.awesome_notifications-fragment-1.7.1-4 C:\Users\tatan\.gradle\caches\transforms-3\1927319348e6a1763638dd6fc5d4ebe9\transformed\fragment-1.7.1\res
+me.carda.awesome_notifications-media-1.7.0-5 C:\Users\tatan\.gradle\caches\transforms-3\197d3d52091f018f24d481d0fd5db8bc\transformed\media-1.7.0\res
+me.carda.awesome_notifications-jetified-lifecycle-process-2.7.0-6 C:\Users\tatan\.gradle\caches\transforms-3\21229aebbaf5cde3895057019033d48e\transformed\jetified-lifecycle-process-2.7.0\res
+me.carda.awesome_notifications-sqlite-2.4.0-7 C:\Users\tatan\.gradle\caches\transforms-3\2647bf23f74770852d087e411936edaf\transformed\sqlite-2.4.0\res
+me.carda.awesome_notifications-sqlite-framework-2.4.0-8 C:\Users\tatan\.gradle\caches\transforms-3\2aafce0d844683e25edad2ce8ff79655\transformed\sqlite-framework-2.4.0\res
+me.carda.awesome_notifications-jetified-lifecycle-viewmodel-savedstate-2.7.0-9 C:\Users\tatan\.gradle\caches\transforms-3\2e4cfc53e960b34c99f0c3a81b84ed92\transformed\jetified-lifecycle-viewmodel-savedstate-2.7.0\res
+me.carda.awesome_notifications-jetified-appcompat-resources-1.7.0-10 C:\Users\tatan\.gradle\caches\transforms-3\2eb044dda85da3761557e70ea426c4fa\transformed\jetified-appcompat-resources-1.7.0\res
+me.carda.awesome_notifications-lifecycle-livedata-core-2.7.0-11 C:\Users\tatan\.gradle\caches\transforms-3\3e91e6e2ca7a9718ea05e91fb451209b\transformed\lifecycle-livedata-core-2.7.0\res
+me.carda.awesome_notifications-jetified-window-java-1.2.0-12 C:\Users\tatan\.gradle\caches\transforms-3\416877508d234be4db44dc0531435dd4\transformed\jetified-window-java-1.2.0\res
+me.carda.awesome_notifications-appcompat-1.7.0-13 C:\Users\tatan\.gradle\caches\transforms-3\43eca0dc89edff199bcab2cea3b5a1f0\transformed\appcompat-1.7.0\res
+me.carda.awesome_notifications-lifecycle-runtime-2.7.0-14 C:\Users\tatan\.gradle\caches\transforms-3\45c012e4be41c5daba432f792569bcc7\transformed\lifecycle-runtime-2.7.0\res
+me.carda.awesome_notifications-room-runtime-2.6.1-15 C:\Users\tatan\.gradle\caches\transforms-3\59c7b0e3f1f4802569c46b6e8db0aa0d\transformed\room-runtime-2.6.1\res
+me.carda.awesome_notifications-coordinatorlayout-1.1.0-16 C:\Users\tatan\.gradle\caches\transforms-3\645ec2db1adfb0a5167272ed24e74ca6\transformed\coordinatorlayout-1.1.0\res
+me.carda.awesome_notifications-jetified-core-1.0.0-17 C:\Users\tatan\.gradle\caches\transforms-3\722b4e7a0e4e51cc1a68a6b58be260cb\transformed\jetified-core-1.0.0\res
+me.carda.awesome_notifications-transition-1.5.0-18 C:\Users\tatan\.gradle\caches\transforms-3\734ae33575af221bb93f8d7ede582924\transformed\transition-1.5.0\res
+me.carda.awesome_notifications-jetified-emoji2-views-helper-1.3.0-19 C:\Users\tatan\.gradle\caches\transforms-3\8ae3739151fc323414ab24fa34b94cfe\transformed\jetified-emoji2-views-helper-1.3.0\res
+me.carda.awesome_notifications-recyclerview-1.1.0-20 C:\Users\tatan\.gradle\caches\transforms-3\8cc4f3299ae5ea5f239f8466aa09aca5\transformed\recyclerview-1.1.0\res
+me.carda.awesome_notifications-core-1.13.1-21 C:\Users\tatan\.gradle\caches\transforms-3\988018d6338235c16c17e5528f7c8fbc\transformed\core-1.13.1\res
+me.carda.awesome_notifications-cardview-1.0.0-22 C:\Users\tatan\.gradle\caches\transforms-3\9ee38dbd706b1ab7bfccbf52b52144d1\transformed\cardview-1.0.0\res
+me.carda.awesome_notifications-jetified-viewpager2-1.0.0-23 C:\Users\tatan\.gradle\caches\transforms-3\aeb8bb4323657319bb4633324a60c681\transformed\jetified-viewpager2-1.0.0\res
+me.carda.awesome_notifications-jetified-lifecycle-livedata-core-ktx-2.7.0-24 C:\Users\tatan\.gradle\caches\transforms-3\b362bc8d32cf37455bd32f36df9d02e0\transformed\jetified-lifecycle-livedata-core-ktx-2.7.0\res
+me.carda.awesome_notifications-material-1.12.0-25 C:\Users\tatan\.gradle\caches\transforms-3\bca3cc5abd825e86f95f2fbf3c8d28f6\transformed\material-1.12.0\res
+me.carda.awesome_notifications-jetified-profileinstaller-1.3.1-26 C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\res
+me.carda.awesome_notifications-lifecycle-livedata-2.7.0-27 C:\Users\tatan\.gradle\caches\transforms-3\cf41abb1ff62de0248355734c43a4866\transformed\lifecycle-livedata-2.7.0\res
+me.carda.awesome_notifications-constraintlayout-2.0.1-28 C:\Users\tatan\.gradle\caches\transforms-3\d2b2fbff5571c8115fbecef9f0f32320\transformed\constraintlayout-2.0.1\res
+me.carda.awesome_notifications-drawerlayout-1.1.1-29 C:\Users\tatan\.gradle\caches\transforms-3\d3930130dd1059edb641b06a2cfb0490\transformed\drawerlayout-1.1.1\res
+me.carda.awesome_notifications-core-runtime-2.2.0-30 C:\Users\tatan\.gradle\caches\transforms-3\d5ed2eb7e5ee645d8f0cbbc074499093\transformed\core-runtime-2.2.0\res
+me.carda.awesome_notifications-jetified-activity-1.8.1-31 C:\Users\tatan\.gradle\caches\transforms-3\dcd11c21b838407bd53905ec915ca943\transformed\jetified-activity-1.8.1\res
+me.carda.awesome_notifications-jetified-window-1.2.0-32 C:\Users\tatan\.gradle\caches\transforms-3\dd937f4ce72e43f721a0809077c30bbc\transformed\jetified-window-1.2.0\res
+me.carda.awesome_notifications-jetified-annotation-experimental-1.4.0-33 C:\Users\tatan\.gradle\caches\transforms-3\ea97a637984e4835dd76e04c56a50e1d\transformed\jetified-annotation-experimental-1.4.0\res
+me.carda.awesome_notifications-jetified-startup-runtime-1.1.1-34 C:\Users\tatan\.gradle\caches\transforms-3\edfa108ec28bd93d6c30f18ac4b53c4f\transformed\jetified-startup-runtime-1.1.1\res
+me.carda.awesome_notifications-jetified-emoji2-1.3.0-35 C:\Users\tatan\.gradle\caches\transforms-3\f8330e411b56e5ea89c30c6835bd3b2d\transformed\jetified-emoji2-1.3.0\res
+me.carda.awesome_notifications-lifecycle-viewmodel-2.7.0-36 C:\Users\tatan\.gradle\caches\transforms-3\fbff6f5a0178ebd2b2ce9743ac61acf1\transformed\lifecycle-viewmodel-2.7.0\res
+me.carda.awesome_notifications-main-37 C:\Users\tatan\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.0\android\src\main\res
+me.carda.awesome_notifications-release-38 C:\Users\tatan\AppData\Local\Pub\Cache\hosted\pub.dev\awesome_notifications-0.10.0\android\src\release\res
+me.carda.awesome_notifications-pngs-39 D:\wallet-way(2nd 11am)\build\awesome_notifications\generated\res\pngs\release
+me.carda.awesome_notifications-resValues-40 D:\wallet-way(2nd 11am)\build\awesome_notifications\generated\res\resValues\release
+me.carda.awesome_notifications-mergeReleaseResources-41 D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\incremental\release\mergeReleaseResources\merged.dir
+me.carda.awesome_notifications-mergeReleaseResources-42 D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+me.carda.awesome_notifications-merged_res-43 D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_res\release

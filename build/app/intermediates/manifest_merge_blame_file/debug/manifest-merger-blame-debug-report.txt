@@ -1,0 +1,754 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.walletway"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:6:5-67
+15-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:6:22-64
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:7:5-66
+16-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:7:22-63
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:8:5-81
+17-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:8:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:9:5-79
+18-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:9:22-76
+19    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+19-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:10:5-70
+19-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:10:22-67
+20    <uses-permission android:name="android.permission.READ_SMS" />
+20-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:11:5-67
+20-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:11:22-64
+21    <uses-permission android:name="android.permission.SEND_SMS" />
+21-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:12:5-67
+21-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:12:22-64
+22    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+22-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:13:5-77
+22-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:13:22-74
+23    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+23-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:14:5-85
+23-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:14:22-82
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:15:5-68
+24-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:15:22-65
+25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+25-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:16:5-77
+25-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:16:22-74
+26
+27    <uses-feature
+27-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:18:5-87
+28        android:name="android.hardware.telephony"
+28-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:18:19-60
+29        android:required="true" />
+29-->D:\wallet-way(2nd 11am)\android\app\src\main\AndroidManifest.xml:18:61-84
+30
+31    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+31-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-89
+31-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-86
+32    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+32-->[:telephony] D:\wallet-way(2nd 11am)\build\telephony\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-81
+32-->[:telephony] D:\wallet-way(2nd 11am)\build\telephony\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-78
+33    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+33-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\37a50e053bee70c6689c8518f20d83da\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:25:5-79
+33-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\37a50e053bee70c6689c8518f20d83da\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:25:22-76
+34    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+34-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\37a50e053bee70c6689c8518f20d83da\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:26:5-88
+34-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\37a50e053bee70c6689c8518f20d83da\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:26:22-85
+35    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+35-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\37a50e053bee70c6689c8518f20d83da\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:27:5-82
+35-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\37a50e053bee70c6689c8518f20d83da\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:27:22-79
+36    <uses-permission
+36-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\tatan\.gradle\caches\transforms-3\da02449d247fc06a35cca55efe9869c1\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:9:5-12:47
+37        android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+37-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\tatan\.gradle\caches\transforms-3\da02449d247fc06a35cca55efe9869c1\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:10:9-77
+38        android:maxSdkVersion="22" />
+38-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\tatan\.gradle\caches\transforms-3\da02449d247fc06a35cca55efe9869c1\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:11:9-35
+39    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+39-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\fd7bfe55aec425927fbdd08591d4acbe\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:26:5-110
+39-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\fd7bfe55aec425927fbdd08591d4acbe\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:26:22-107
+40    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+40-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\tatan\.gradle\caches\transforms-3\3255558696d7d3f9ef5464d0c9b5ff2e\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:9:5-98
+40-->[com.google.android.recaptcha:recaptcha:18.5.1] C:\Users\tatan\.gradle\caches\transforms-3\3255558696d7d3f9ef5464d0c9b5ff2e\transformed\jetified-recaptcha-18.5.1\AndroidManifest.xml:9:22-95
+41
+42    <permission
+42-->[androidx.core:core:1.13.1] C:\Users\tatan\.gradle\caches\transforms-3\988018d6338235c16c17e5528f7c8fbc\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+43        android:name="com.example.walletway.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.13.1] C:\Users\tatan\.gradle\caches\transforms-3\988018d6338235c16c17e5528f7c8fbc\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.13.1] C:\Users\tatan\.gradle\caches\transforms-3\988018d6338235c16c17e5528f7c8fbc\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="com.example.walletway.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- for android -->
+46-->[androidx.core:core:1.13.1] C:\Users\tatan\.gradle\caches\transforms-3\988018d6338235c16c17e5528f7c8fbc\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.13.1] C:\Users\tatan\.gradle\caches\transforms-3\988018d6338235c16c17e5528f7c8fbc\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+47    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+48    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+49    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+50    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+51    <!-- for Samsung -->
+52    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+53    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+54    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+55    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+56    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+57    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+58    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+59    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+60    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+61    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+62    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+62-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+62-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+63    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+63-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+63-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+64    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+64-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+64-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+65    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+65-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+65-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+66    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+66-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+66-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+67    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+67-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+67-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\tatan\.gradle\caches\transforms-3\0cd2e976b6e99e4cf9a723508526d968\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+68
+69    <application
+70        android:name="android.app.Application"
+71        android:allowBackup="true"
+72        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+72-->[androidx.core:core:1.13.1] C:\Users\tatan\.gradle\caches\transforms-3\988018d6338235c16c17e5528f7c8fbc\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+73        android:debuggable="true"
+74        android:extractNativeLibs="false"
+75        android:icon="@mipmap/ic_launcher"
+76        android:label="WalletWay"
+77        android:theme="@style/LaunchTheme" >
+78
+79        <!-- Main Activity -->
+80        <activity
+81            android:name="com.example.walletway.MainActivity"
+82            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+83            android:enableOnBackInvokedCallback="true"
+84            android:exported="true"
+85            android:hardwareAccelerated="true"
+86            android:launchMode="singleTop"
+87            android:theme="@style/LaunchTheme"
+88            android:windowSoftInputMode="adjustResize" >
+89            <meta-data
+90                android:name="io.flutter.embedding.android.NormalTheme"
+91                android:resource="@style/NormalTheme" />
+92
+93            <intent-filter>
+94                <action android:name="android.intent.action.MAIN" />
+95
+96                <category android:name="android.intent.category.LAUNCHER" />
+97            </intent-filter>
+98        </activity>
+99
+100        <!-- SMS Receiver -->
+101        <receiver
+102            android:name="com.example.walletway.IncomingSmsReceiver"
+103            android:exported="true"
+104            android:permission="android.permission.BROADCAST_SMS" >
+105            <intent-filter>
+106                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+107            </intent-filter>
+108        </receiver>
+109
+110        <!-- Awesome Notifications Receivers -->
+111        <receiver
+112            android:name="me.carda.awesome_notifications.notifications.receivers.ActionReceiver"
+113            android:exported="false" />
+114        <receiver
+115            android:name="me.carda.awesome_notifications.notifications.receivers.DismissedReceiver"
+116            android:exported="false" />
+117
+118        <!-- Scheduled Notification Receiver (Ensures Notifications Work After Reboot) -->
+119        <receiver
+120            android:name="me.carda.awesome_notifications.notifications.receivers.ScheduledNotificationReceiver"
+121            android:exported="false"
+122            android:permission="android.permission.RECEIVE_BOOT_COMPLETED" >
+123            <intent-filter>
+124                <action android:name="android.intent.action.BOOT_COMPLETED" />
+124-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+124-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+125                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+125-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-84
+125-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-81
+126            </intent-filter>
+127        </receiver>
+128
+129        <!-- Awesome Notifications Meta-Data -->
+130        <meta-data
+131            android:name="me.carda.awesome_notifications.notifications.default_icon"
+132            android:resource="@mipmap/ic_launcher" />
+133
+134        <!-- Flutter Meta-Data -->
+135        <meta-data
+136            android:name="flutterEmbedding"
+137            android:value="2" />
+138
+139        <receiver
+139-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:39
+140            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+140-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-89
+141            android:exported="true" />
+141-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-36
+142        <receiver
+142-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-15:39
+143            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+143-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-92
+144            android:exported="true" />
+144-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-36
+145        <receiver
+145-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:39
+146            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+146-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-92
+147            android:exported="true" />
+147-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-36
+148        <receiver
+148-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-33:20
+149            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+149-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-87
+150            android:enabled="true"
+150-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-35
+151            android:exported="true" >
+151-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-36
+152            <intent-filter>
+152-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-32:29
+153                <category android:name="android.intent.category.DEFAULT" />
+153-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-76
+153-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:27-73
+154
+155                <action android:name="android.intent.action.BOOT_COMPLETED" />
+155-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+155-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+156                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+156-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-86
+156-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-83
+157                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+157-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-84
+157-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-81
+158                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+158-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-82
+158-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-79
+159                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+159-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-82
+159-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:30:25-79
+160                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+160-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-107
+160-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-104
+161            </intent-filter>
+162        </receiver>
+163
+164        <service
+164-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-38:72
+165            android:name="me.carda.awesome_notifications.DartBackgroundService"
+165-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-80
+166            android:exported="false"
+166-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-37
+167            android:permission="android.permission.BIND_JOB_SERVICE" />
+167-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-69
+168        <service
+168-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-44:43
+169            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+169-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-90
+170            android:enabled="true"
+170-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-35
+171            android:exported="false"
+171-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-37
+172            android:foregroundServiceType="phoneCall"
+172-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-54
+173            android:stopWithTask="true" />
+173-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-40
+174        <service
+174-->[:cloud_firestore] D:\wallet-way(2nd 11am)\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+175            android:name="com.google.firebase.components.ComponentDiscoveryService"
+175-->[:cloud_firestore] D:\wallet-way(2nd 11am)\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-89
+176            android:directBootAware="true"
+176-->[com.google.firebase:firebase-common:21.0.0] C:\Users\tatan\.gradle\caches\transforms-3\d22a053f3f7669dac2b6bbfb1b6b85dd\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+177            android:exported="false" >
+177-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\tatan\.gradle\caches\transforms-3\ef8dcd4259ff635a9426be2ac29c755d\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:16:13-37
+178            <meta-data
+178-->[:cloud_firestore] D:\wallet-way(2nd 11am)\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+179                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+179-->[:cloud_firestore] D:\wallet-way(2nd 11am)\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-134
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[:cloud_firestore] D:\wallet-way(2nd 11am)\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+181            <meta-data
+181-->[:firebase_auth] D:\wallet-way(2nd 11am)\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+182                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+182-->[:firebase_auth] D:\wallet-way(2nd 11am)\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[:firebase_auth] D:\wallet-way(2nd 11am)\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+184            <meta-data
+184-->[:firebase_storage] D:\wallet-way(2nd 11am)\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+185                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+185-->[:firebase_storage] D:\wallet-way(2nd 11am)\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-126
+186                android:value="com.google.firebase.components.ComponentRegistrar" />
+186-->[:firebase_storage] D:\wallet-way(2nd 11am)\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+187            <meta-data
+187-->[:firebase_core] D:\wallet-way(2nd 11am)\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+188                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+188-->[:firebase_core] D:\wallet-way(2nd 11am)\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[:firebase_core] D:\wallet-way(2nd 11am)\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+190            <meta-data
+190-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\tatan\.gradle\caches\transforms-3\ef8dcd4259ff635a9426be2ac29c755d\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:17:13-19:85
+191                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+191-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\tatan\.gradle\caches\transforms-3\ef8dcd4259ff635a9426be2ac29c755d\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:18:17-122
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\tatan\.gradle\caches\transforms-3\ef8dcd4259ff635a9426be2ac29c755d\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:19:17-82
+193            <meta-data
+193-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\tatan\.gradle\caches\transforms-3\ef8dcd4259ff635a9426be2ac29c755d\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:20:13-22:85
+194                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+194-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\tatan\.gradle\caches\transforms-3\ef8dcd4259ff635a9426be2ac29c755d\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:21:17-111
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.firebase:firebase-firestore:25.1.1] C:\Users\tatan\.gradle\caches\transforms-3\ef8dcd4259ff635a9426be2ac29c755d\transformed\jetified-firebase-firestore-25.1.1\AndroidManifest.xml:22:17-82
+196            <meta-data
+196-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:69:13-71:85
+197                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+197-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:70:17-109
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:71:17-82
+199            <meta-data
+199-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\tatan\.gradle\caches\transforms-3\9d22d8783f8ca391d20ada3489c4736c\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:30:13-32:85
+200                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+200-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\tatan\.gradle\caches\transforms-3\9d22d8783f8ca391d20ada3489c4736c\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:31:17-118
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\tatan\.gradle\caches\transforms-3\9d22d8783f8ca391d20ada3489c4736c\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:32:17-82
+202            <meta-data
+202-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\tatan\.gradle\caches\transforms-3\9d22d8783f8ca391d20ada3489c4736c\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:33:13-35:85
+203                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+203-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\tatan\.gradle\caches\transforms-3\9d22d8783f8ca391d20ada3489c4736c\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:34:17-107
+204                android:value="com.google.firebase.components.ComponentRegistrar" />
+204-->[com.google.firebase:firebase-storage:21.0.1] C:\Users\tatan\.gradle\caches\transforms-3\9d22d8783f8ca391d20ada3489c4736c\transformed\jetified-firebase-storage-21.0.1\AndroidManifest.xml:35:17-82
+205            <meta-data
+205-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\37a50e053bee70c6689c8518f20d83da\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:37:13-39:85
+206                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+206-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\37a50e053bee70c6689c8518f20d83da\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:38:17-139
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\37a50e053bee70c6689c8518f20d83da\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:39:17-82
+208            <meta-data
+208-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\tatan\.gradle\caches\transforms-3\57be54e88f07210392d8616a4e5fdf78\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:25:13-27:85
+209                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+209-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\tatan\.gradle\caches\transforms-3\57be54e88f07210392d8616a4e5fdf78\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:26:17-120
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\tatan\.gradle\caches\transforms-3\57be54e88f07210392d8616a4e5fdf78\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:27:17-82
+211            <meta-data
+211-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\tatan\.gradle\caches\transforms-3\57be54e88f07210392d8616a4e5fdf78\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:28:13-30:85
+212                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+212-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\tatan\.gradle\caches\transforms-3\57be54e88f07210392d8616a4e5fdf78\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:29:17-117
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[com.google.firebase:firebase-appcheck:18.0.0] C:\Users\tatan\.gradle\caches\transforms-3\57be54e88f07210392d8616a4e5fdf78\transformed\jetified-firebase-appcheck-18.0.0\AndroidManifest.xml:30:17-82
+214            <meta-data
+214-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\tatan\.gradle\caches\transforms-3\2a8c4386513697bf7b8fd848d86b6c14\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+215                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+215-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\tatan\.gradle\caches\transforms-3\2a8c4386513697bf7b8fd848d86b6c14\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\tatan\.gradle\caches\transforms-3\2a8c4386513697bf7b8fd848d86b6c14\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+217            <meta-data
+217-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\tatan\.gradle\caches\transforms-3\2a8c4386513697bf7b8fd848d86b6c14\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+218                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+218-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\tatan\.gradle\caches\transforms-3\2a8c4386513697bf7b8fd848d86b6c14\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\tatan\.gradle\caches\transforms-3\2a8c4386513697bf7b8fd848d86b6c14\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+220            <meta-data
+220-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\tatan\.gradle\caches\transforms-3\0cc5e9e28ab88249a5d5d668215fbb4a\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+221                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+221-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\tatan\.gradle\caches\transforms-3\0cc5e9e28ab88249a5d5d668215fbb4a\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\tatan\.gradle\caches\transforms-3\0cc5e9e28ab88249a5d5d668215fbb4a\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+223            <meta-data
+223-->[com.google.firebase:firebase-common:21.0.0] C:\Users\tatan\.gradle\caches\transforms-3\d22a053f3f7669dac2b6bbfb1b6b85dd\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+224                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+224-->[com.google.firebase:firebase-common:21.0.0] C:\Users\tatan\.gradle\caches\transforms-3\d22a053f3f7669dac2b6bbfb1b6b85dd\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[com.google.firebase:firebase-common:21.0.0] C:\Users\tatan\.gradle\caches\transforms-3\d22a053f3f7669dac2b6bbfb1b6b85dd\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+226        </service>
+227
+228        <provider
+228-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:9-17:20
+229            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+229-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-82
+230            android:authorities="com.example.walletway.flutter.image_provider"
+230-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+231            android:exported="false"
+231-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+232            android:grantUriPermissions="true" >
+232-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-47
+233            <meta-data
+233-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-16:75
+234                android:name="android.support.FILE_PROVIDER_PATHS"
+234-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-67
+235                android:resource="@xml/flutter_image_picker_file_paths" />
+235-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-72
+236        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+237        <service
+237-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-31:19
+238            android:name="com.google.android.gms.metadata.ModuleDependencies"
+238-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-78
+239            android:enabled="false"
+239-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-36
+240            android:exported="false" >
+240-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+241            <intent-filter>
+241-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-26:29
+242                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+242-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-94
+242-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-91
+243            </intent-filter>
+244
+245            <meta-data
+245-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-30:36
+246                android:name="photopicker_activity:0:required"
+246-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-63
+247                android:value="" />
+247-->[:image_picker_android] D:\wallet-way(2nd 11am)\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:30:17-33
+248        </service>
+249
+250        <activity
+250-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:29:9-46:20
+251            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+251-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:30:13-80
+252            android:excludeFromRecents="true"
+252-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:31:13-46
+253            android:exported="true"
+253-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:32:13-36
+254            android:launchMode="singleTask"
+254-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:33:13-44
+255            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+255-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:34:13-72
+256            <intent-filter>
+256-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:35:13-45:29
+257                <action android:name="android.intent.action.VIEW" />
+257-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
+257-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
+258
+259                <category android:name="android.intent.category.DEFAULT" />
+259-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-76
+259-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:27-73
+260                <category android:name="android.intent.category.BROWSABLE" />
+260-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
+260-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
+261
+262                <data
+262-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:41:17-44:51
+263                    android:host="firebase.auth"
+263-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:42:21-49
+264                    android:path="/"
+264-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:43:21-37
+265                    android:scheme="genericidp" />
+265-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:44:21-48
+266            </intent-filter>
+267        </activity>
+268        <activity
+268-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:47:9-64:20
+269            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+269-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:48:13-79
+270            android:excludeFromRecents="true"
+270-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:49:13-46
+271            android:exported="true"
+271-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:50:13-36
+272            android:launchMode="singleTask"
+272-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:51:13-44
+273            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+273-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:52:13-72
+274            <intent-filter>
+274-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:53:13-63:29
+275                <action android:name="android.intent.action.VIEW" />
+275-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:17-69
+275-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:36:25-66
+276
+277                <category android:name="android.intent.category.DEFAULT" />
+277-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-76
+277-->[:awesome_notifications] D:\wallet-way(2nd 11am)\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:27-73
+278                <category android:name="android.intent.category.BROWSABLE" />
+278-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:17-78
+278-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:39:27-75
+279
+280                <data
+280-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:41:17-44:51
+281                    android:host="firebase.auth"
+281-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:42:21-49
+282                    android:path="/"
+282-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:43:21-37
+283                    android:scheme="recaptcha" />
+283-->[com.google.firebase:firebase-auth:23.1.0] C:\Users\tatan\.gradle\caches\transforms-3\033a010b36bcf262f1c9808a25c508b5\transformed\jetified-firebase-auth-23.1.0\AndroidManifest.xml:44:21-48
+284            </intent-filter>
+285        </activity>
+286
+287        <property
+287-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\37a50e053bee70c6689c8518f20d83da\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:30:9-32:61
+288            android:name="android.adservices.AD_SERVICES_CONFIG"
+288-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\37a50e053bee70c6689c8518f20d83da\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:31:13-65
+289            android:resource="@xml/ga_ad_services_config" />
+289-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\37a50e053bee70c6689c8518f20d83da\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:32:13-58
+290
+291        <service
+291-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\tatan\.gradle\caches\transforms-3\da02449d247fc06a35cca55efe9869c1\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:21:9-28:19
+292            android:name="me.carda.awesome_notifications.core.managers.StatusBarManager"
+292-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\tatan\.gradle\caches\transforms-3\da02449d247fc06a35cca55efe9869c1\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:22:13-89
+293            android:exported="true"
+293-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\tatan\.gradle\caches\transforms-3\da02449d247fc06a35cca55efe9869c1\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:23:13-36
+294            android:label="My Notification Listener Service" >
+294-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\tatan\.gradle\caches\transforms-3\da02449d247fc06a35cca55efe9869c1\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:24:13-61
+295            <intent-filter>
+295-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\tatan\.gradle\caches\transforms-3\da02449d247fc06a35cca55efe9869c1\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:25:13-27:29
+296                <action android:name="android.service.notification.NotificationListenerService" />
+296-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\tatan\.gradle\caches\transforms-3\da02449d247fc06a35cca55efe9869c1\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:26:17-99
+296-->[me.carda:AndroidAwnCore:0.10.0] C:\Users\tatan\.gradle\caches\transforms-3\da02449d247fc06a35cca55efe9869c1\transformed\jetified-AndroidAwnCore-0.10.0\AndroidManifest.xml:26:25-96
+297            </intent-filter>
+298        </service>
+299        <service
+299-->[androidx.room:room-runtime:2.6.1] C:\Users\tatan\.gradle\caches\transforms-3\59c7b0e3f1f4802569c46b6e8db0aa0d\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+300            android:name="androidx.room.MultiInstanceInvalidationService"
+300-->[androidx.room:room-runtime:2.6.1] C:\Users\tatan\.gradle\caches\transforms-3\59c7b0e3f1f4802569c46b6e8db0aa0d\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+301            android:directBootAware="true"
+301-->[androidx.room:room-runtime:2.6.1] C:\Users\tatan\.gradle\caches\transforms-3\59c7b0e3f1f4802569c46b6e8db0aa0d\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+302            android:exported="false" />
+302-->[androidx.room:room-runtime:2.6.1] C:\Users\tatan\.gradle\caches\transforms-3\59c7b0e3f1f4802569c46b6e8db0aa0d\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+303        <service
+303-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\tatan\.gradle\caches\transforms-3\d1c9dfd70a0cf738117eca8b672d3e36\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:24:9-32:19
+304            android:name="androidx.credentials.playservices.CredentialProviderMetadataHolder"
+304-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\tatan\.gradle\caches\transforms-3\d1c9dfd70a0cf738117eca8b672d3e36\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:25:13-94
+305            android:enabled="true"
+305-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\tatan\.gradle\caches\transforms-3\d1c9dfd70a0cf738117eca8b672d3e36\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:26:13-35
+306            android:exported="false" >
+306-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\tatan\.gradle\caches\transforms-3\d1c9dfd70a0cf738117eca8b672d3e36\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:27:13-37
+307            <meta-data
+307-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\tatan\.gradle\caches\transforms-3\d1c9dfd70a0cf738117eca8b672d3e36\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:29:13-31:104
+308                android:name="androidx.credentials.CREDENTIAL_PROVIDER_KEY"
+308-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\tatan\.gradle\caches\transforms-3\d1c9dfd70a0cf738117eca8b672d3e36\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:30:17-76
+309                android:value="androidx.credentials.playservices.CredentialProviderPlayServicesImpl" />
+309-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\tatan\.gradle\caches\transforms-3\d1c9dfd70a0cf738117eca8b672d3e36\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:31:17-101
+310        </service>
+311
+312        <activity
+312-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\tatan\.gradle\caches\transforms-3\d1c9dfd70a0cf738117eca8b672d3e36\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:34:9-41:20
+313            android:name="androidx.credentials.playservices.HiddenActivity"
+313-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\tatan\.gradle\caches\transforms-3\d1c9dfd70a0cf738117eca8b672d3e36\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:35:13-76
+314            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+314-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\tatan\.gradle\caches\transforms-3\d1c9dfd70a0cf738117eca8b672d3e36\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:36:13-87
+315            android:enabled="true"
+315-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\tatan\.gradle\caches\transforms-3\d1c9dfd70a0cf738117eca8b672d3e36\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:37:13-35
+316            android:exported="false"
+316-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\tatan\.gradle\caches\transforms-3\d1c9dfd70a0cf738117eca8b672d3e36\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:38:13-37
+317            android:fitsSystemWindows="true"
+317-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\tatan\.gradle\caches\transforms-3\d1c9dfd70a0cf738117eca8b672d3e36\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:39:13-45
+318            android:theme="@style/Theme.Hidden" >
+318-->[androidx.credentials:credentials-play-services-auth:1.2.0-rc01] C:\Users\tatan\.gradle\caches\transforms-3\d1c9dfd70a0cf738117eca8b672d3e36\transformed\jetified-credentials-play-services-auth-1.2.0-rc01\AndroidManifest.xml:40:13-48
+319        </activity>
+320
+321        <provider
+321-->[com.google.firebase:firebase-common:21.0.0] C:\Users\tatan\.gradle\caches\transforms-3\d22a053f3f7669dac2b6bbfb1b6b85dd\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+322            android:name="com.google.firebase.provider.FirebaseInitProvider"
+322-->[com.google.firebase:firebase-common:21.0.0] C:\Users\tatan\.gradle\caches\transforms-3\d22a053f3f7669dac2b6bbfb1b6b85dd\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+323            android:authorities="com.example.walletway.firebaseinitprovider"
+323-->[com.google.firebase:firebase-common:21.0.0] C:\Users\tatan\.gradle\caches\transforms-3\d22a053f3f7669dac2b6bbfb1b6b85dd\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+324            android:directBootAware="true"
+324-->[com.google.firebase:firebase-common:21.0.0] C:\Users\tatan\.gradle\caches\transforms-3\d22a053f3f7669dac2b6bbfb1b6b85dd\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+325            android:exported="false"
+325-->[com.google.firebase:firebase-common:21.0.0] C:\Users\tatan\.gradle\caches\transforms-3\d22a053f3f7669dac2b6bbfb1b6b85dd\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+326            android:initOrder="100" />
+326-->[com.google.firebase:firebase-common:21.0.0] C:\Users\tatan\.gradle\caches\transforms-3\d22a053f3f7669dac2b6bbfb1b6b85dd\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+327
+328        <receiver
+328-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\fd7bfe55aec425927fbdd08591d4acbe\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:29:9-33:20
+329            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+329-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\fd7bfe55aec425927fbdd08591d4acbe\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:30:13-85
+330            android:enabled="true"
+330-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\fd7bfe55aec425927fbdd08591d4acbe\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:31:13-35
+331            android:exported="false" >
+331-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\fd7bfe55aec425927fbdd08591d4acbe\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:32:13-37
+332        </receiver>
+333
+334        <service
+334-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\fd7bfe55aec425927fbdd08591d4acbe\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:35:9-38:40
+335            android:name="com.google.android.gms.measurement.AppMeasurementService"
+335-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\fd7bfe55aec425927fbdd08591d4acbe\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:36:13-84
+336            android:enabled="true"
+336-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\fd7bfe55aec425927fbdd08591d4acbe\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:37:13-35
+337            android:exported="false" />
+337-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\fd7bfe55aec425927fbdd08591d4acbe\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:38:13-37
+338        <service
+338-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\fd7bfe55aec425927fbdd08591d4acbe\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:39:9-43:72
+339            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+339-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\fd7bfe55aec425927fbdd08591d4acbe\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:40:13-87
+340            android:enabled="true"
+340-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\fd7bfe55aec425927fbdd08591d4acbe\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:41:13-35
+341            android:exported="false"
+341-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\fd7bfe55aec425927fbdd08591d4acbe\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:42:13-37
+342            android:permission="android.permission.BIND_JOB_SERVICE" />
+342-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\tatan\.gradle\caches\transforms-3\fd7bfe55aec425927fbdd08591d4acbe\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:43:13-69
+343
+344        <activity
+344-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\tatan\.gradle\caches\transforms-3\1d4fd935b0d69a46d4a5992178885142\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:23:9-27:75
+345            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+345-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\tatan\.gradle\caches\transforms-3\1d4fd935b0d69a46d4a5992178885142\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:24:13-93
+346            android:excludeFromRecents="true"
+346-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\tatan\.gradle\caches\transforms-3\1d4fd935b0d69a46d4a5992178885142\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:25:13-46
+347            android:exported="false"
+347-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\tatan\.gradle\caches\transforms-3\1d4fd935b0d69a46d4a5992178885142\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:26:13-37
+348            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+348-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\tatan\.gradle\caches\transforms-3\1d4fd935b0d69a46d4a5992178885142\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:27:13-72
+349        <!--
+350            Service handling Google Sign-In user revocation. For apps that do not integrate with
+351            Google Sign-In, this service will never be started.
+352        -->
+353        <service
+353-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\tatan\.gradle\caches\transforms-3\1d4fd935b0d69a46d4a5992178885142\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:33:9-37:51
+354            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+354-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\tatan\.gradle\caches\transforms-3\1d4fd935b0d69a46d4a5992178885142\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:34:13-89
+355            android:exported="true"
+355-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\tatan\.gradle\caches\transforms-3\1d4fd935b0d69a46d4a5992178885142\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:35:13-36
+356            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+356-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\tatan\.gradle\caches\transforms-3\1d4fd935b0d69a46d4a5992178885142\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:36:13-107
+357            android:visibleToInstantApps="true" />
+357-->[com.google.android.gms:play-services-auth:20.7.0] C:\Users\tatan\.gradle\caches\transforms-3\1d4fd935b0d69a46d4a5992178885142\transformed\jetified-play-services-auth-20.7.0\AndroidManifest.xml:37:13-48
+358
+359        <uses-library
+359-->[androidx.window:window:1.2.0] C:\Users\tatan\.gradle\caches\transforms-3\dd937f4ce72e43f721a0809077c30bbc\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+360            android:name="androidx.window.extensions"
+360-->[androidx.window:window:1.2.0] C:\Users\tatan\.gradle\caches\transforms-3\dd937f4ce72e43f721a0809077c30bbc\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+361            android:required="false" />
+361-->[androidx.window:window:1.2.0] C:\Users\tatan\.gradle\caches\transforms-3\dd937f4ce72e43f721a0809077c30bbc\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+362        <uses-library
+362-->[androidx.window:window:1.2.0] C:\Users\tatan\.gradle\caches\transforms-3\dd937f4ce72e43f721a0809077c30bbc\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+363            android:name="androidx.window.sidecar"
+363-->[androidx.window:window:1.2.0] C:\Users\tatan\.gradle\caches\transforms-3\dd937f4ce72e43f721a0809077c30bbc\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+364            android:required="false" />
+364-->[androidx.window:window:1.2.0] C:\Users\tatan\.gradle\caches\transforms-3\dd937f4ce72e43f721a0809077c30bbc\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+365        <uses-library
+365-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\tatan\.gradle\caches\transforms-3\6f6ddce04b4381f914cb3662cabb0eb3\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+366            android:name="android.ext.adservices"
+366-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\tatan\.gradle\caches\transforms-3\6f6ddce04b4381f914cb3662cabb0eb3\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+367            android:required="false" />
+367-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\tatan\.gradle\caches\transforms-3\6f6ddce04b4381f914cb3662cabb0eb3\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+368
+369        <activity
+369-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\tatan\.gradle\caches\transforms-3\16b894d23bb0b02cbf66c06aa537c930\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+370            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+370-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\tatan\.gradle\caches\transforms-3\16b894d23bb0b02cbf66c06aa537c930\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+371            android:exported="false"
+371-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\tatan\.gradle\caches\transforms-3\16b894d23bb0b02cbf66c06aa537c930\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+372            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+372-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\tatan\.gradle\caches\transforms-3\16b894d23bb0b02cbf66c06aa537c930\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+373
+374        <meta-data
+374-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\tatan\.gradle\caches\transforms-3\bac02a512013e07225a1c62625cefd5e\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+375            android:name="com.google.android.gms.version"
+375-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\tatan\.gradle\caches\transforms-3\bac02a512013e07225a1c62625cefd5e\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+376            android:value="@integer/google_play_services_version" />
+376-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\tatan\.gradle\caches\transforms-3\bac02a512013e07225a1c62625cefd5e\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+377
+378        <provider
+378-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tatan\.gradle\caches\transforms-3\f8330e411b56e5ea89c30c6835bd3b2d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+379            android:name="androidx.startup.InitializationProvider"
+379-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tatan\.gradle\caches\transforms-3\f8330e411b56e5ea89c30c6835bd3b2d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+380            android:authorities="com.example.walletway.androidx-startup"
+380-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tatan\.gradle\caches\transforms-3\f8330e411b56e5ea89c30c6835bd3b2d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+381            android:exported="false" >
+381-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tatan\.gradle\caches\transforms-3\f8330e411b56e5ea89c30c6835bd3b2d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+382            <meta-data
+382-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tatan\.gradle\caches\transforms-3\f8330e411b56e5ea89c30c6835bd3b2d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+383                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+383-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tatan\.gradle\caches\transforms-3\f8330e411b56e5ea89c30c6835bd3b2d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+384                android:value="androidx.startup" />
+384-->[androidx.emoji2:emoji2:1.3.0] C:\Users\tatan\.gradle\caches\transforms-3\f8330e411b56e5ea89c30c6835bd3b2d\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+385            <meta-data
+385-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\tatan\.gradle\caches\transforms-3\21229aebbaf5cde3895057019033d48e\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+386                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+386-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\tatan\.gradle\caches\transforms-3\21229aebbaf5cde3895057019033d48e\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+387                android:value="androidx.startup" />
+387-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\tatan\.gradle\caches\transforms-3\21229aebbaf5cde3895057019033d48e\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+388            <meta-data
+388-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+389                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+389-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+390                android:value="androidx.startup" />
+390-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+391        </provider>
+392
+393        <receiver
+393-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+394            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+394-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+395            android:directBootAware="false"
+395-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+396            android:enabled="true"
+396-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+397            android:exported="true"
+397-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+398            android:permission="android.permission.DUMP" >
+398-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+399            <intent-filter>
+399-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+400                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+400-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+400-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+401            </intent-filter>
+402            <intent-filter>
+402-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+403                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+403-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+403-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+404            </intent-filter>
+405            <intent-filter>
+405-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+406                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+406-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+406-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+407            </intent-filter>
+408            <intent-filter>
+408-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+409                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+409-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+409-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\tatan\.gradle\caches\transforms-3\c183d18077b92a9cfb3afc59b61f4d71\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+410            </intent-filter>
+411        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+412        <activity
+412-->[com.google.android.play:core-common:2.0.3] C:\Users\tatan\.gradle\caches\transforms-3\a20f953473079af2b47809e8ec9148e2\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:14:9-18:65
+413            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+413-->[com.google.android.play:core-common:2.0.3] C:\Users\tatan\.gradle\caches\transforms-3\a20f953473079af2b47809e8ec9148e2\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:15:13-93
+414            android:exported="false"
+414-->[com.google.android.play:core-common:2.0.3] C:\Users\tatan\.gradle\caches\transforms-3\a20f953473079af2b47809e8ec9148e2\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:16:13-37
+415            android:stateNotNeeded="true"
+415-->[com.google.android.play:core-common:2.0.3] C:\Users\tatan\.gradle\caches\transforms-3\a20f953473079af2b47809e8ec9148e2\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:17:13-42
+416            android:theme="@style/Theme.PlayCore.Transparent" />
+416-->[com.google.android.play:core-common:2.0.3] C:\Users\tatan\.gradle\caches\transforms-3\a20f953473079af2b47809e8ec9148e2\transformed\jetified-core-common-2.0.3\AndroidManifest.xml:18:13-62
+417    </application>
+418
+419</manifest>
